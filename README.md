@@ -18,4 +18,4 @@ Although the owner is affiliated with ONC, this is a personal repository and its
 
 ## Wish list
 
-- Build AI supported code generator for api calls. Wouldn't it be great to type something like `get me all onc device locations` inside a little box and a code snippet pops up.
+- Build an AI supported code generator. Wouldn't it be great to type something like `get me all onc device locations` inside a little box and a code snippet pops up.
