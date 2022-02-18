@@ -33,14 +33,12 @@ def parse_and_write_out_example_code(obj):
     method_names = obj.find_all('span', class_="expand-control-text")
     language_names = obj.find_all('div', class_="codeHeader panelHeader pdl")
     language_examples = obj.find_all('div', class_="codeContent panelContent pdl")
-    print('------------------------------------------------------')
-    print(len(method_names), len(language_names), len(language_examples))
 
     for methd_name in method_names:
         
         for language_name, language_example in zip(language_names, language_examples): 
             if  methd_name.text != 'Expand source':
-                method_name = methd_name.text.lower().replace(' ', '_')
+                method_name = methd_name.text.lower().replace(' ', '_').replace(',', '')
                 language_name = language_name.text.replace(' ', '').strip('.x')
                 language_example = language_example.text
 
