@@ -1,7 +1,7 @@
 # onc-api-example-codes
 
 
- This repository contains copies of code exampes shown at the Ocean Netwoks Canada's API service home page https://wiki.oceannetworks.ca/display/O2A/Oceans+2.0+API+Home. The examples use Python 3, MATLAB and R languages. Hopefully, each filename is descriptive enough and explains what the code in it does. For more visit the documentation on the above page. The goal of this repository is to share working code examples that use the most uptodate api services ONC provides. I will update the examples regularly. One can also simply run the notebook `code_scrapper.ipynb` or its .py version in this repository and get the latest examples. The code will download all the files in the current working directory with a structure shown below:
+ This repository contains copies of code exampes shown at the Ocean Networks Canada's API service home page https://wiki.oceannetworks.ca/display/O2A/Oceans+2.0+API+Home. The examples use Python 3, MATLAB and R languages. Hopefully, each filename is descriptive enough and explains what the code in it does. For more visit the documentation on the above page. The goal of this repository is to share working code examples that use the most uptodate api services ONC provides. I will update the examples regularly. One can also simply run the notebook `code_scrapper.ipynb` or its .py version in this repository and get the latest examples. The code will download all the files in the current working directory with a structure shown below:
 
 ```
 └── scripts
@@ -10,7 +10,11 @@
     └── R
 ```
 
-Although the owner is affiliated with ONC, this is a personal repository and its goal is to reach the wider community of users and promote the api service use by providing boilerplate code files that can be stored locally. Issues encountered while using any of the example codes in this repository should be reported at https://jira.oceannetworks.ca/servicedesk/customer/user/login?destination=portals. The python and R codes may require installing a few packages before one can use them.
+Although the owner is affiliated with ONC, this repository is a personal initiative. Its goal is to promote the api service to a wider community of users by providing portable boilerplate code files. 
+
+Issues encountered while using any of the example codes in this repository should be reported at https://jira.oceannetworks.ca/servicedesk/customer/user/login?destination=portals. The python and R codes may require installing a few packages before one can use them.
+
+No ownership is claimed other than the files `code_scrapper.ipynb`, and `code_scrapper.py`, which are provided as is and with no restrictions. I will upload the appropriate license file after consulting with the developers.
 
 ## TODO
 
