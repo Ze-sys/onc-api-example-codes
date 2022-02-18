@@ -11,6 +11,7 @@
 ```
 
 Although the owner is affiliated with ONC, this repository is a personal initiative. Its goal is to promote the api service to a wider community of users by providing portable boilerplate code files. 
+The first step to use the api is to register for an account and obtain a token. The ONC account creation process is easy, and anyone can have one. You can follow the link https://data.oceannetworks.ca/Login?  to register.
 
 Issues encountered while using any of the example codes in this repository should be reported at https://jira.oceannetworks.ca/servicedesk/customer/user/login?destination=portals. The python and R codes may require installing a few packages before one can use them.
 
