@@ -10,7 +10,12 @@
     └── R
 ```
 
-This is a personal repository and the goal of the repository is to reach a wider community of users who may be interested in accessing ONC's data via the api services. Issues and dificulties while using any of the example codes or thier derivatives should be reported at https://jira.oceannetworks.ca/servicedesk/customer/user/login?destination=portals . The python and R versions may require installing a few packages to use them.
+Although the owner is affiliated with ONC, this is a personal repository and its goal is to reach the wider community of users and promote the api service use by providing boilerplate code files that can be stored locally. Issues encountered while using any of the example codes in this repository should be reported at https://jira.oceannetworks.ca/servicedesk/customer/user/login?destination=portals. The python and R codes may require installing a few packages before one can use them.
+
 ## TODO
 
- - Add example codes that use the api client libraries.
+ - Add the example codes that use the api client libraries.
+
+## Wish list
+
+- Build AI supported code generator for api calls. Wouldn't it be great to type something like `get me all onc device locations` inside a little box and a code snippet pops up.
