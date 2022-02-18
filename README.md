@@ -10,6 +10,8 @@
     └── R
 ```
 
+The goal of this repository is to reach a wider community of users of ONC data. Issues and dificulties using any of the example codes or thier derivatives should be reported at https://jira.oceannetworks.ca/servicedesk/customer/user/login?destination=portals    
+
 ## TODO
 
  - Add example codes that use the api client libraries.
