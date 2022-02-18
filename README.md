@@ -10,7 +10,7 @@
     └── R
 ```
 
-This a personal repository and the goal of the repository is to reach a wider community of users who may be interested in accessing ONC's data via the api services. Issues and dificulties while using any of the example codes or thier derivatives should be reported at https://jira.oceannetworks.ca/servicedesk/customer/user/login?destination=portals 
+This is a personal repository and the goal of the repository is to reach a wider community of users who may be interested in accessing ONC's data via the api services. Issues and dificulties while using any of the example codes or thier derivatives should be reported at https://jira.oceannetworks.ca/servicedesk/customer/user/login?destination=portals . The python and R versions may require installing a few packages to use them.
 ## TODO
 
  - Add example codes that use the api client libraries.
