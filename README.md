@@ -1,7 +1,7 @@
 # onc-api-example-codes
 
 
- This repository is for code exampes for using Ocean Netwoks Canada's API service. The examples used Python 3, MATLAB and R languages. Each file name explains what the code in it does. For more visit the api documentation at  https://wiki.oceannetworks.ca/display/O2A/Oceans+2.0+API+Home. The goal of this repository is for sharing working code examples that use the most up todate api services ONC provides to a wider audince. We will update this examples reqularly. In order to download the latest codes, one can simply run the  notebook code_scrapper.ipynb or its .py version. They will download all code files in the current working directory. The directory structure will be:
+ This repository is for copy of code exampes shown at the Ocean Netwoks Canada's API service home page https://wiki.oceannetworks.ca/display/O2A/Oceans+2.0+API+Home. The examples use Python 3, MATLAB and R languages. Hopefully, each filename is descriptive enough and explains what the code in it does. For more visit the api documentation on the above page. The goal of this repository is to share working code examples that use the most uptodate api services ONC provides. We will update the examples regularly. One can also simply run the notebook `code_scrapper.ipynb` or its .py version in this repository and get the latest examples. The code will download all the files in the current working directory with a structure shown below:
 
 ```
 └── scripts
