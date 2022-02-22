@@ -1,14 +1,14 @@
 
 import requests
 import json
- 
+
 url = 'https://data.oceannetworks.ca/api/properties'
 parameters = {'method':'get',
 			'token':'YOUR_TOKEN_HERE', # replace YOUR_TOKEN_HERE with your personal token obtained from the 'Web Services API' tab at https://data.oceannetworks.ca/Profile when logged in.
 			'deviceCategoryCode':'ADCP150KHZ'}
- 
+
 response = requests.get(url,params=parameters)
- 
+
 if (response.ok):
 	properties= json.loads(str(response.content,'utf-8')) # convert the json response to an object
 	for property in properties:

@@ -36,7 +36,7 @@ def main():
                 indx+=1
             else:
                 break
- 
+
 def requestDataProduct(parameters):
 
     response = requests.get(url,params=parameters)
@@ -67,7 +67,7 @@ def requestDataProduct(parameters):
 
     return requestId
 
- 
+
 def runDataProduct(requestId):
     parameters = {'method':'run',
                 'token':token,
@@ -79,7 +79,7 @@ def runDataProduct(requestId):
     if (response.ok):
         r= json.loads(str(response.content,'utf-8')) # convert the json response to an object
         runIds = [run['dpRunId'] for run in r]
- 
+
     else:
         if(response.status_code == 400):
             error = json.loads(str(response.content,'utf-8'))
@@ -89,7 +89,6 @@ def runDataProduct(requestId):
 
     return runIds
 
- 
 def downloadDataProductIndex(runId,                     # The ID of the run process to download the files for. RunIds are returned from the dataProductDelivery run method
                              indx=1,                    # The index of the file to be downloaded. Data files have an index of 1 or higher. The Metadata has an index of 'meta'
                              outPath='c:/temp',
@@ -97,7 +96,6 @@ def downloadDataProductIndex(runId,                     # The ID of the run proc
                              estimatedProcessingTime=1, # The estimated processing time in seconds, which is used to determine how often to poll the web service. The estimated processing time is returned from the dataProductDelivery request method
                              maxRetries=100):           # Determines the maximum number of times the process will poll the service before it times out. The purpose of this property is to prevent hung processes on the Task server to hang this process.
 
- 
     parameters = {'method':'download',
                 'token':token,
  			    'dpRunId':runId,
@@ -315,7 +313,6 @@ def printErrorMesasge(response,
         print (msg)
         return msg
 
- 
 if __name__ == '__main__':
     main()
 
